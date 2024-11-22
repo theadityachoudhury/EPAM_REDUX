@@ -1,0 +1,35 @@
+.courseForm__container{
+    @apply space-y-10 mb-20
+}
+
+.courseForm__container h1{
+    @apply text-3xl font-bold
+}
+
+.courseForm{
+    @apply space-y-5 bg-gray-100 p-10 px-20 rounded-lg
+}
+
+.courseForm h2{
+    @apply text-xl font-bold mb-4
+}
+
+.courseForm__duration{
+    @apply flex space-x-5
+}
+
+.CourseForm__mainInfo{
+    @apply space-y-5
+}
+
+.courseForm__duration div{
+    @apply min-w-[50px]
+}
+
+.courseForm__duration p{
+    @apply py-9 items-start
+}
+
+.courseForm__authors{
+    @apply flex
+}

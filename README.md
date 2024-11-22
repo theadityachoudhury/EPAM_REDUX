@@ -1,4 +1,4 @@
-# React Async Redux and Testing
+# React Router
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://autocode.git.epam.com/campus_javascript/react/react-async-redux-and-testing.git
+git remote add origin https://autocode.git.epam.com/campus_javascript/react/react-router.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://autocode.git.epam.com/campus_javascript/react/react-async-redux-and-testing/-/settings/integrations)
+- [ ] [Set up project integrations](https://autocode.git.epam.com/campus_javascript/react/react-router/-/settings/integrations)
 
 ## Collaborate with your team
 

@@ -1,0 +1,15 @@
+.custom-button {
+	@apply bg-[#007298] text-white px-4 py-2 rounded-md uppercase font-bold text-sm;
+}
+
+.icon-button {
+	@apply p-3;
+}
+
+.button-icon {
+	@apply m-0;
+}
+
+.button-title {
+	@apply text-base;
+}

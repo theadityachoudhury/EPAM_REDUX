@@ -1,0 +1,27 @@
+.login__container {
+	@apply grid place-items-center min-h-screen overflow-y-clip;
+}
+
+.login__body {
+	@apply space-y-6;
+}
+
+.login__body h1 {
+	@apply text-2xl font-bold text-gray-800 text-center;
+}
+
+.login__form__body {
+	@apply bg-white p-8 w-96 border border-gray-300 shadow-lg;
+}
+
+.login__form__body form {
+	@apply flex flex-col gap-4;
+}
+
+.login__form__body p {
+	@apply text-gray-700 mt-4 text-lg text-center;
+}
+
+.login__form__body > p > a {
+	@apply text-blue-600 font-semibold hover:underline;
+}

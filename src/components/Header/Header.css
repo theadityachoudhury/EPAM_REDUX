@@ -1,0 +1,27 @@
+.header{
+    @apply flex justify-between m-3
+}
+
+.header__container{
+    @apply shadow-md p-1
+}
+
+.header__logo{
+    @apply w-5 h-5
+}
+
+.header__nav{
+    @apply flex space-x-2
+}
+
+.header__nav .username{
+    @apply text-lg p-3 uppercase font-bold
+}
+
+.header__nav .username::after{
+    @apply content-[',']
+}
+
+.header__nav .nav__link{
+    @apply text-lg p-3
+}

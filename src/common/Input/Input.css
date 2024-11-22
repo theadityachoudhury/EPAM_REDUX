@@ -1,0 +1,13 @@
+.input__Container {
+	@apply w-full;
+}
+
+/* Basic input styling */
+.input {
+	@apply border border-[#cfcfcf] focus:outline-none focus:border-[#9c9898] p-3 w-full rounded-md;
+}
+
+
+label{
+	@apply font-semibold text-[#333e48]
+}

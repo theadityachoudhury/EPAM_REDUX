@@ -1,0 +1,34 @@
+.card__container {
+	@apply border-l-8 border-[#333e48] p-6 m-auto my-10;
+	box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 3px
+}
+
+.card__heading {
+	@apply text-xl font-semibold;
+}
+
+.card__body__container {
+	@apply flex mt-4 space-x-24;
+}
+
+.card__description {
+	@apply max-w-[60%] w-[60%] text-justify;
+}
+
+.card__metadata {
+	@apply place-items-start;
+}
+
+.courseCard__button {
+	@apply mt-7 flex space-x-2 place-self-start;
+}
+
+.card__metadata__item > span:first-child {
+	@apply font-bold;
+}
+
+.card__metadata__item > span:first-child::after {
+	@apply content-[':'];
+	margin-right: 5px;
+}
